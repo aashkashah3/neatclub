@@ -395,20 +395,18 @@ display:none;
   }
 #bannerimgm{
   width: 100%;
-  padding: 0 10px;
+  padding: 0 5%;
   text-align: center;
 }
 
   #frontpagem{
     width:300px;
-    padding:20px 0% 0 0%;
+    padding:20px 0% 20px 0%;
     align-self: center;
   }
 
   #bannerbutm{
-    padding-top: 30px;
-    padding-bottom: 0px;
-
+    padding: 30px 5% 0 5%;
   }
 
   #downloadm{
