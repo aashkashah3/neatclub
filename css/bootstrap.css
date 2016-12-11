@@ -231,10 +231,6 @@ letter-spacing: 1px;
 }
 
 
-#allstepsm{
-    display: none;
-}
-
 
 .questions{
   padding:60px 30px 30px 30px;
@@ -417,6 +413,58 @@ display:none;
     letter-spacing: 1px;
     color: #1a1a1a;
   }
+
+
+.worksm{
+    background:#fff;
+  }
+
+#workstitlem{
+    padding:60px 0 0 0;
+    text-align: center;
+    color:#1a1a1a;
+    font-family: sans-serif;
+    font-size:28px;
+    font-weight:100;
+    letter-spacing: 0.6px;
+  }
+
+#allstepsm{
+padding-top: 60px;
+    }
+
+#boxm{
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#trym{
+    font-family: sans-serif;
+    font-size:24px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    color:#1a1a1a;
+    }
+
+#try1m{
+  padding-top: 30px;
+    }
+
+#linecontainerm{
+      padding: 60px 0 60px 0;
+      align-content: center;
+      align-self: center;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+}
+
+#linem{
+      width:300px;
+}
+
 
 }
 
