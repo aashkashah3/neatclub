@@ -7,6 +7,18 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Ahttp://www.w3schools.com/dd smooth scrolling to all links
+  $("button").on('click', function(event) {
+
+    $('html,body').animate({
+         scrollTop: $("form").offset().top},
+         'slow');
+  });
+});
+</script>
 </head>
 
 <body>
@@ -80,12 +92,13 @@
 	    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 
     <div class="clear"><div id="yay"><input type="submit" class="btn btn-primary btn-block" value="Invite me!" name="subscribe" id="but" ></div></div>
+
   </form>
 </div>
 
 <!--End mc_embed_signup-->
 
-<!--Signup form-->
+<!--Signup form
 <div id="form">
   <div id="formtitle"> Get an invite to Neat</div>
   <div id="formtext"> Please share your email address here to receive a link to download the app.</div>
@@ -93,7 +106,7 @@
   <div id="yay"><button type="button" class="btn btn-primary btn-block" id="but">Invite me!</button></div>
 </div>
 
-
+-->
 <!--allsteps-mobile-->
 
 <div id="allstepsm">
