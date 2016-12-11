@@ -15,16 +15,7 @@ body {
 
 }
 
-.black{
-  background: #1a1a1a;
-  width:100%;
-  height: 800px;
-}
 
-.bg{
-margin:-40px 0 0 0;
-  opacity:0.7;
-}
 
 #menu{
 padding: 10px 30% 15px 30%;
@@ -40,7 +31,6 @@ background: #000;
   width:50px;
 }
 
-
 .companyname{
   font-family: sans-serif;
   display: inline-block;
@@ -53,6 +43,9 @@ background: #000;
   margin-left: 10px;
   vertical-align: bottom;
 }
+
+
+
 
 #banner{
   padding: 60px 0 60px 0;
@@ -68,16 +61,6 @@ background: #000;
   display: inline-block;
   width:40%;
   padding:0 0px 0 30px;
-}
-
-.companyinto{
-  position: absolute;
-  top:150px;
-  width:100%;
-  text-align: center;
-  align-content: center;
-  text-align: center;
-  font-family: sans-serif;
 }
 
 #bannerright{
@@ -101,6 +84,7 @@ background: #000;
   padding-top: 30px;
   padding-bottom: 0px;
 }
+
 #download{
   width:350px;
   height:50px;
@@ -112,32 +96,83 @@ background: #000;
   letter-spacing: 1px;
 }
 
+
+
+.works{
+  background:#fff;
+}
+
+#workstitle{
+  padding:60px 0 0 0;
+  text-align: center;
+  color:#1a1a1a;
+  font-family: sans-serif;
+  font-size:32px;
+  font-weight:100;
+  letter-spacing: 0.6px;
+}
+
+#allsteps{
+    align-content: center;
+  }
+
+#box{
+    padding: 60px 0 60px 0;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#try{
+  font-family: sans-serif;
+  display: inline-block;
+  width:35%;
+  font-size:34px;
+  font-weight:600;
+  letter-spacing: 0.5px;
+  color:#1a1a1a;
+  padding:0 30px 0 0px;
+  }
+
+  #try1{
+    display: inline-block;
+    width:50%;
+    padding:0 0px 0 30px;
+  }
+
+  #linecontainer{
+    padding: 60px 0 60px 0;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #line{
+    width:300px;
+  }
+
+  #box2{
+    padding: 60px 0 60px 0;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
 #form{
   text-align: center;
   align-self: center;
   justify-content: center;
   align-items: center;
   background: #1a1a1a;
-}
-
-#email{
-  background: #000;
-  color: #fff;
-  border: 0px;
-  border-radius: 0px;
-  height: 50px;
-  font-size: 17px;
-  font-family: sans-serif;
-  letter-spacing: 1px;
-
-}
-
-#in{
-padding: 20px 30% 20px 30%;
-align-self: center;
-justify-content: center;
-align-items: center;
-text-align: center;
 }
 
 #formtitle{
@@ -160,6 +195,26 @@ text-align: center;
   text-align-last: center;
 }
 
+#in{
+padding: 20px 30% 20px 30%;
+align-self: center;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+#email{
+  background: #000;
+  color: #fff;
+  border: 0px;
+  border-radius: 0px;
+  height: 50px;
+  font-size: 17px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+
+}
+
 #yay{
 padding: 0px 30% 100px 30%;
 align-self: center;
@@ -176,66 +231,12 @@ font-family: sans-serif;
 letter-spacing: 1px;
 }
 
+
 #allstepsm{
     display: none;
-  }
-
-
-
-#opening{
-  padding:60px 30px 20px 30px;
-  text-align:center;
-  font-family: sans-serif;
-  font-size:24px;
-  font-weight:100;
-  letter-spacing: 0.5px;
-  color:#1a1a1a;
 }
 
-.stat{
-  text-align: center;
-  display: inline-block;
-  padding:40px 20px 40px 20px;
-}
 
-.circles{
-  text-align: center;
-  padding:0px 0 50px 0;
-
-}
-
-.stattext {
-  font-family: sans-serif;
-  width: 170px;
-  height: 170px;
-  border-radius: 85px;
-  color:#fff;
-  background: #e8bc1b;
-  display: flex;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
-  flex-direction: column;
-  font-size: 15px;
-  box-shadow:  0px 2px 7px rgba(0, 0, 0, 0.1);
-  letter-spacing: 1.8px;
-}
-
-.stattexttitle {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 500;
-  letter-spacing: 1.2px;
-}
-
-.stattag {
-  font-size: 16px;
-  font-weight: 500;
-  color: #1a1a1a;
-  margin-top: 10px;
-  letter-spacing: 1px;
-}
 .questions{
   padding:60px 30px 30px 30px;
   font-family: sans-serif;
@@ -247,29 +248,8 @@ letter-spacing: 1px;
   opacity: 0.7;
 }
 
-.copyrights{
-
-}
 
 
-
-.works{
-  background:#fff;
-}
-
-#workstitle{
-  padding:60px 0 0 0;
-  text-align: center;
-  color:#1a1a1a;
-  font-family: sans-serif;
-  font-size:32px;
-  font-weight:100;
-  letter-spacing: 0.6px;
-}
-
-#allsteps{
-    align-content: center;
-  }
 
 .stepstitle{
   font-family: sans-serif;
@@ -297,76 +277,10 @@ letter-spacing: 1px;
 display:none;
 }
 
-#statustext{
-  text-align: center;
-  padding:0 30% 0 30%;
-  font-family: sans-serif;
-  font-size:17px;
-  font-weight:400;
-  letter-spacing: 1px;
-  justify-content: center;
-  color:#1a1a1a;
-}
 
-}
-#stepsicon{
-  padding:30px 0 30px 0;
-width:250px;
-height:auto;
-  }
 
-#steps{
-  padding:0px 0 100px 0;
-  align-content: center;
-  text-align: center;
-  display:inline;
-}
-#try{
-  font-family: sans-serif;
-  display: inline-block;
-  width:35%;
-  font-size:34px;
-  font-weight:600;
-  letter-spacing: 0.5px;
-  color:#1a1a1a;
-  padding:0 30px 0 0px;
-}
 
-#try1{
-  display: inline-block;
-  width:50%;
-  padding:0 0px 0 30px;
-}
-#box{
-  padding: 60px 0 60px 0;
-  align-content: center;
-  align-self: center;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
 
-#box2{
-  padding: 60px 0 60px 0;
-  align-content: center;
-  align-self: center;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-#linecontainer{
-  padding: 60px 0 60px 0;
-  align-content: center;
-  align-self: center;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-#line{
-  width:300px;
-}
 .hipaa{
   margin:0 auto;
   padding: 50px 0 50px 0;
@@ -374,6 +288,12 @@ height:auto;
   text-align: center;
   display: block;
   background-color: #fff;
+}
+
+.hipaaicon{
+  width:200px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .hipaatext{
@@ -400,12 +320,6 @@ height:auto;
   justify-content: center;
 }
 
-.hipaaicon{
-  width:200px;
-  height: auto;
-  margin: 0 auto;
-}
-
 .copyrights{
   font-family: sans-serif;
   font-size:18px;
@@ -416,41 +330,38 @@ height:auto;
 }
 
 
+
+
 @media (max-width: 767px){
-  .black{
-    background: #000;
-  }
+#menu{
+  padding: 15px 10% 15px 10%;
+  text-align: center;
+  background: #000;
+}
 
-  .companyinto{
-    position: absolute;
-    top:50px;
-    width:100%;
-    text-align: center;
-    align-content: center;
-    text-align: center;
+.logo{
+    display: inline-block;
+}
+
+#logoimg{
+    width:30px;
+}
+
+.companyname{
     font-family: sans-serif;
-  }
-
-  #logoimg{
-    width:70px;
-    padding: 0 0 0 0;
-  }
-
-  .bg{
-  margin:0px 0 0 0px;
-    opacity:0.7;
-    width: 100%;
-  }
-  .companyname{
-    text-align: center;
-    padding: 10px 0 0 0;
-    color:#fff;
-    font-size: 50px;
-    font-family: sans-serif;
-    font-weight: 600;
+    display: inline-block;
+    font-size:30px;
+    font-weight:400;
     letter-spacing: 1px;
-    line-height: 40px;
-  }
+    color:#1a1a1a;
+    text-align: left;
+    color: #fff;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+
+
 
   #tagline{
     text-align: center;

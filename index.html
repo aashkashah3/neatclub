@@ -7,28 +7,40 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Ahttp://www.w3schools.com/dd smooth scrolling to all links
-  $("button").on('click', function(event) {
 
+<!--Smooth Scrolling-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+  $("button").on('click', function(event) {
     $('html,body').animate({
          scrollTop: $("form").offset().top},
          'slow');
   });
 });
 </script>
+<!--End-Smooth Scrolling-->
+
 </head>
 
+
+
 <body>
+
+
+
+
 <!--menubar-->
-  <div id="menu">
-    <div class="row" >
+<div id="menu">
+  <div class="row" >
       <div class="logo"><img src="img/neatlogo.png" class="img-responsive" id="logoimg" alt="Cinque Terre"></div>
-       <div class="companyname">neat</div>
-   </div>
- </div>
+      <div class="companyname">neat</div>
+  </div>
+</div>
+<!--End-menubar-->
+
+
+
 
 <!--banner-->
  <div id="banner">
@@ -40,17 +52,21 @@ $(document).ready(function(){
      </div>
     </div>
   </div>
+<!--End-banner-->
+
+
+
 
 <!--How it works-->
 <div class="works">
-
 <div id="workstitle">Join Neat and..</div>
 
 <div id="allsteps">
+
   <div id="box">
     <div class="row" >
-      <div id="try1"><img src="img/tinder.png" class="img-responsive" id="shot2" alt="Cinque Terre"></div>
-       <div id="try">Connect with people who are tested for STDs</div>
+      <div id="try1"><img src="img/tinder.png" class="img-responsive" alt="Cinque Terre"></div>
+      <div id="try">Connect with people who are tested for STDs</div>
    </div>
   </div>
 
@@ -59,7 +75,7 @@ $(document).ready(function(){
   <div id="box2">
     <div class="row" >
       <div id="try">Share verified STD status with your date privately and play safe!</div>
-      <div id="try1"><img src="img/share.png" class="img-responsive" id="shot2" alt="Cinque Terre"></div>
+      <div id="try1"><img src="img/share.png" class="img-responsive" alt="Cinque Terre"></div>
     </div>
   </div>
 
@@ -68,10 +84,14 @@ $(document).ready(function(){
   <div id="box">
     <div class="row" >
       <div id="try">Get tested for STDs regularly as recommended by the app</div>
-      <div id="try1"><img src="img/ver.png" class="img-responsive" id="shot2" alt="Cinque Terre" ></div>
+      <div id="try1"><img src="img/ver.png" class="img-responsive" alt="Cinque Terre" ></div>
     </div>
   </div>
 </div>
+</div>
+<!--End-How it works-->
+
+
 
 <!-- Begin MailChimp Signup Form -->
 <div id="form">
@@ -82,8 +102,9 @@ $(document).ready(function(){
       <div id="formtext"> Please share your email address here to receive a link to download the app.</div>
 
       <div class="mc-field-group">
-	    <div id="in"><input type="email" value="" class="form-control" name="EMAIL" class="required email" id="email" placeholder="Email">
-      </div>
+	       <div id="in">
+           <input type="email" value="" class="form-control" name="EMAIL" class="required email" id="email" placeholder="Email">
+         </div>
       </div>
 
       <div id="mce-responses" class="clear">
@@ -92,11 +113,13 @@ $(document).ready(function(){
 	    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 
     <div class="clear"><div id="yay"><input type="submit" class="btn btn-primary btn-block" value="Invite me!" name="subscribe" id="but" ></div></div>
-
+  </div>
   </form>
 </div>
+<!--End-mc_embed_signup-->
 
-<!--End mc_embed_signup-->
+
+
 
 <!--Signup form
 <div id="form">
@@ -107,8 +130,8 @@ $(document).ready(function(){
 </div>
 
 -->
-<!--allsteps-mobile-->
 
+<!--allsteps-mobile-->
 <div id="allstepsm">
   <div id="boxm">
      <div class="description">Get matched and go on dates with people who are tested for STDs</div>
@@ -132,21 +155,23 @@ $(document).ready(function(){
     </div>
 </div>
 </div>
-
+<!--End-allsteps-mobile-->
 
 
 <!--Hipaa Security-->
-
-  <div class="hipaa">
+<div class="hipaa">
   <div class="hipaaicon"><img src="img/privacy.png" class="img-responsive" alt="Cinque Terre"></div>
   <div class="hipaatext">
-    <div class="hipaatitle">HIPAA Security</div><div class="hipaadescription">We understand that information on your STD status is extremely sensitive and private. Neat is compliant with HIPAA (Health Insurance Portability and Accountability Act) which is an established national standard to protect an individual's electronic personal health information.</div>
+    <div class="hipaatitle">HIPAA Security</div>
+    <div class="hipaadescription">We understand that information on your STD status is extremely sensitive and private. Neat is compliant with HIPAA (Health Insurance Portability and Accountability Act) which is an established national standard to protect an individual's electronic personal health information.</div>
   </div>
-
-
 </div>
+<!--End-Hipaa Security-->
+
 
 <!--copyrights-->
 <div class="copyrights">©NeatClub</div>
+<!--End-copyrights-->
+
 </body>
 </html>
