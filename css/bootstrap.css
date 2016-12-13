@@ -79,8 +79,17 @@ background: #000;
   line-height: normal;
 }
 
+#full{
+  font-weight: 100;
+  font-size: 21px;
+  color: #fff;
+  font-family: sans-serif;
+  letter-spacing: 1.3px;
+  padding-top: 10px;
+}
+
 #bannerbut{
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 0px;
 }
 
@@ -94,6 +103,29 @@ background: #000;
   font-size: 21px;
   font-family: sans-serif;
   font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#fact{
+background:#e8bc1b;
+color:#1a1a1a;
+text-align: center;
+padding: 20px 0 30px 0;
+}
+
+#line1{
+  color: #fff;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#line2{
+  color: #fff;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -261,7 +293,7 @@ font-weight: 600;
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 1090px){
 
 #web{
   display: none;
@@ -318,8 +350,19 @@ font-weight: 600;
     letter-spacing: 1.3px;
     line-height: normal;
     text-align: center;
-    padding: 60px 5% 60px 5%;
+    padding: 60px 5% 0px 5%;
   }
+
+  #fullm{
+    font-weight: 100;
+    font-size: 17px;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 1.3px;
+    padding: 10px 5% 60px 5%;
+    text-align: center;
+  }
+
 #bannerimgm{
   width: 80%;
   margin: 0 auto;
@@ -347,6 +390,34 @@ font-weight: 600;
   }
 
 
+
+  #factm{
+    margin: 0 0 0 0;
+  background:#e8bc1b;
+  color:#1a1a1a;
+  text-align: center;
+  padding: 20px 5% 30px 5%;
+  }
+
+  #line1m{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 55px;
+  }
+
+  #line2m{
+    color: #fff;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 10px;
+  }
+
+
 #box1m{
         width:100%;
         margin: 0px auto;
@@ -355,7 +426,7 @@ font-weight: 600;
 
 #titletextm{
     margin:40px 0 0 0;
-    padding:0px 7% 0 7%;
+    padding:0px 5% 0 5%;
     font-family: sans-serif;
     font-size:38px;
     font-weight:600;
@@ -367,13 +438,13 @@ font-weight: 600;
     }
 
   #tinderimgm{
-      padding: 40px 0 0px 0;
+      padding: 40px 0 40px 0;
   }
 
   #box2m{
     width:100%;
     padding:40px 4% 40px 4%;
-    margin: 40px auto;
+    margin: 0px auto;
     background: #1a1a1a;
   }
 
@@ -385,7 +456,7 @@ font-weight: 600;
       color:#fff;
       text-align: center;
       padding-top: 0px;
-      line-height: normal;
+      line-height: 42px;
   }
 
 
