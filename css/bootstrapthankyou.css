@@ -28,6 +28,11 @@ body {
 #img{
   padding-top: 50px;
 }
+
+#imgc{
+  padding-top: 50px;
+}
+
 #gif{
 width:300px;
 border-width: 2px;
@@ -35,7 +40,22 @@ border-radius: 5px;
 border-color: #000;
 }
 
+#gifc{
+width:500px;
+border-width: 2px;
+border-radius: 5px;
+border-color: #000;
+}
+
 #text{
+padding-top: 20px;
+font-family: sans-serif;
+font-size: 38px;
+color: #fff;
+font-weight: 600;
+letter-spacing: 1px;
+}
+#textc{
 padding-top: 20px;
 font-family: sans-serif;
 font-size: 38px;
@@ -54,6 +74,15 @@ letter-spacing: 1px;
   font-weight: 600;
   letter-spacing: 1px;
   }
+  #textc{
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  }
+}
 }
 article,
 aside,
